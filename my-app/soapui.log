@@ -1,0 +1,105 @@
+2021-08-16 15:23:45,014 WARN  [SoapUI] Missing folder [C:\Users\AmritaChowdhury\Documents\Personal\FullStackTester_training\SoapUIAssignment\my-app\ext] for external libraries
+2021-08-16 15:23:45,382 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\AmritaChowdhury\soapui-settings.xml]
+2021-08-16 15:24:32,530 INFO  [WsdlProject] Loaded project from [file:/C:/Users/AmritaChowdhury/Documents/Personal/FullStackTester_training/SoapUIAssignment/my-app/SDET-Assessment-Prj-soapui-project.xml]
+2021-08-16 15:24:33,106 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [SDET_Assessment_Prj]
+2021-08-16 15:24:33,108 INFO  [SoapUITestCaseRunner] Running Project [SDET_Assessment_Prj], runType = SEQUENTIAL
+2021-08-16 15:24:33,132 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_001]
+2021-08-16 15:24:33,154 INFO  [SoapUITestCaseRunner] running step [ValidateStatusCode]
+2021-08-16 15:24:37,506 INFO  [log] 415f614328bd6226ea5d0052c2cbfffcea6336e9
+2021-08-16 15:24:37,557 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2021-08-16 15:24:37,558 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-08-16 15:24:37,558 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_001], time taken: 3518ms, status: FINISHED
+2021-08-16 15:24:37,564 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_002]
+2021-08-16 15:24:37,570 INFO  [SoapUITestCaseRunner] running step [BasicAuthentication]
+2021-08-16 15:24:40,673 INFO  [log] f6286326965a02e894457111c084c3869c3def9c
+2021-08-16 15:24:40,677 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-08-16 15:24:40,681 INFO  [SoapUITestCaseRunner] running step [Login]
+2021-08-16 15:24:41,131 INFO  [log] HTTP status code: [HTTP/1.1 200 OK]
+2021-08-16 15:24:41,138 INFO  [log] Succesfully validated http status code
+2021-08-16 15:24:41,145 INFO  [log] Succesfully validated username:upskills_admin
+2021-08-16 15:24:41,146 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2021-08-16 15:24:41,146 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-08-16 15:24:41,147 INFO  [SoapUITestCaseRunner] running step [GetUser]
+2021-08-16 15:24:41,537 INFO  [log] HTTP status code: [HTTP/1.1 200 OK]
+2021-08-16 15:24:41,543 INFO  [log] Succesfully validated http status code
+2021-08-16 15:24:41,548 INFO  [log] Succesfully validated username:upskills_admin
+2021-08-16 15:24:41,554 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-08-16 15:24:41,556 INFO  [SoapUITestCaseRunner] running step [Logout]
+2021-08-16 15:24:41,930 INFO  [log] HTTP status code: [HTTP/1.1 200 OK]
+2021-08-16 15:24:41,930 INFO  [log] Succesfully validated http status code
+2021-08-16 15:24:41,932 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-08-16 15:24:41,936 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_002], time taken: 4040ms, status: FINISHED
+2021-08-16 15:24:41,946 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_003]
+2021-08-16 15:24:41,953 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2021-08-16 15:24:42,529 INFO  [log] The Number of Rows are  4
+2021-08-16 15:24:42,530 INFO  [log] The Number of Columns are 1
+2021-08-16 15:24:42,553 INFO  [log] Ths id is 4
+2021-08-16 15:24:43,191 INFO  [log] The Response code is 401
+2021-08-16 15:24:43,194 INFO  [log] Ths id is 5
+2021-08-16 15:24:43,820 INFO  [log] The Response code is 401
+2021-08-16 15:24:43,821 INFO  [log] Ths id is 6
+2021-08-16 15:24:44,410 INFO  [log] The Response code is 401
+2021-08-16 15:24:44,410 INFO  [SoapUITestCaseRunner] running step [Login]
+2021-08-16 15:24:45,596 INFO  [SoapUITestCaseRunner] running step [AddCustomer]
+2021-08-16 15:24:46,374 INFO  [SoapUITestCaseRunner] running step [customerfilterby limit]
+2021-08-16 15:24:46,907 INFO  [SoapUITestCaseRunner] running step [Logout]
+2021-08-16 15:24:47,312 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_003], time taken: 5248ms, status: FINISHED
+2021-08-16 15:24:47,338 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_015]
+2021-08-16 15:24:47,350 INFO  [SoapUITestCaseRunner] running step [BasicAuthentication]
+2021-08-16 15:24:48,109 INFO  [log] 8b5edf03aedf3712271454a43c37c5387ccd3dad
+2021-08-16 15:24:48,128 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-08-16 15:24:48,130 INFO  [SoapUITestCaseRunner] running step [Login]
+2021-08-16 15:24:49,206 INFO  [SoapUITestCaseRunner] running step [GetCategoryFilterBylimit-page]
+2021-08-16 15:24:49,595 INFO  [log] HTTP pagination limit: [2]
+2021-08-16 15:24:49,596 INFO  [log] Succesfully validated http pagination limit
+2021-08-16 15:24:49,599 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-08-16 15:24:49,609 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_015], time taken: 2147ms, status: FINISHED
+2021-08-16 15:24:49,615 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_021]
+2021-08-16 15:24:49,617 INFO  [SoapUITestCaseRunner] running step [BasicAuthentication]
+2021-08-16 15:24:49,984 INFO  [log] a628f3926c1e7bd600b30b2cddce97905fe7dea9
+2021-08-16 15:24:49,985 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-08-16 15:24:49,995 INFO  [SoapUITestCaseRunner] running step [Login]
+2021-08-16 15:24:50,362 INFO  [SoapUITestCaseRunner] running step [ProductFilterByLimit]
+2021-08-16 15:24:51,068 ERROR [SoapUI] An error occurred [NCNames cannot be empty], see error log for details
+2021-08-16 15:24:51,077 ERROR [errorlog] nu.xom.IllegalNameException: NCNames cannot be empty
+nu.xom.IllegalNameException: NCNames cannot be empty
+	at nu.xom.Verifier.throwIllegalNameException(Verifier.java:147)
+	at nu.xom.Verifier.checkNCName(Verifier.java:121)
+	at nu.xom.Element._setLocalName(Element.java:832)
+	at nu.xom.Element.<init>(Element.java:112)
+	at nu.xom.Element.<init>(Element.java:76)
+	at com.eviware.soapui.impl.rest.support.handlers.JsonXmlSerializer$CustomElement.<init>(JsonXmlSerializer.java:1744)
+	at com.eviware.soapui.impl.rest.support.handlers.JsonXmlSerializer.newElement(JsonXmlSerializer.java:1090)
+	at com.eviware.soapui.impl.rest.support.handlers.JsonXmlSerializer.processJSONObject(JsonXmlSerializer.java:1255)
+	at com.eviware.soapui.impl.rest.support.handlers.JsonXmlSerializer.processJSONValue(JsonXmlSerializer.java:1325)
+	at com.eviware.soapui.impl.rest.support.handlers.JsonXmlSerializer.processJSONObject(JsonXmlSerializer.java:1256)
+	at com.eviware.soapui.impl.rest.support.handlers.JsonXmlSerializer.processJSONValue(JsonXmlSerializer.java:1325)
+	at com.eviware.soapui.impl.rest.support.handlers.JsonXmlSerializer.processJSONObject(JsonXmlSerializer.java:1256)
+	at com.eviware.soapui.impl.rest.support.handlers.JsonXmlSerializer.processJSONValue(JsonXmlSerializer.java:1325)
+	at com.eviware.soapui.impl.rest.support.handlers.JsonXmlSerializer.processJSONArray(JsonXmlSerializer.java:1143)
+	at com.eviware.soapui.impl.rest.support.handlers.JsonXmlSerializer.processJSONValue(JsonXmlSerializer.java:1317)
+	at com.eviware.soapui.impl.rest.support.handlers.JsonXmlSerializer.processJSONObject(JsonXmlSerializer.java:1256)
+	at com.eviware.soapui.impl.rest.support.handlers.JsonXmlSerializer.write(JsonXmlSerializer.java:735)
+	at com.eviware.soapui.impl.rest.support.handlers.JsonXmlSerializer.write(JsonXmlSerializer.java:690)
+	at com.eviware.soapui.impl.rest.support.handlers.JsonMediaTypeHandler.createXmlRepresentation(JsonMediaTypeHandler.java:69)
+	at com.eviware.soapui.impl.wsdl.submit.transports.http.BaseHttpResponse.getContentAsXml(BaseHttpResponse.java:462)
+	at com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep.propertyChange(RestTestRequestStep.java:485)
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:335)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:327)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:263)
+	at com.eviware.soapui.model.support.AbstractModelItem.notifyPropertyChanged(AbstractModelItem.java:90)
+	at com.eviware.soapui.impl.support.AbstractHttpRequest.setResponse(AbstractHttpRequest.java:896)
+	at com.eviware.soapui.impl.wsdl.teststeps.RestTestRequest.setResponse(RestTestRequest.java:140)
+	at com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep.run(RestTestRequestStep.java:927)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:239)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:52)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:152)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-08-16 15:24:51,176 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_021], time taken: 1367ms, status: FINISHED
+2021-08-16 15:24:51,177 INFO  [SoapUITestCaseRunner] Project [SDET_Assessment_Prj] finished with status [FINISHED] in 18064ms

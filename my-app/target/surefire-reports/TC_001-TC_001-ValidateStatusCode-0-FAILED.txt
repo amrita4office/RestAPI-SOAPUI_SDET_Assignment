@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Mon Aug 16 15:16:11 IST 2021
+TestStep: ValidateStatusCode
+
+----------------- Messages ------------------------------
+java.net.UnknownHostException: rest-api.upskills.in
+
+- missing response / garbage collected -
